@@ -1,0 +1,39 @@
+html {
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif, monospace;
+    font-size: 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: #C0C0C0;
+    
+}
+
+h1{ font-size: 50px;
+    text-align: center;
+} 
+
+img{
+    width: 40%;
+    display: block;
+    margin: auto;
+} 
+
+.form{
+        font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+  }
+
+tr{
+    background-color: #eee;
+  }
+
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+  }

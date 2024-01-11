@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ajouter un eleve</title>
+        <link rel="stylesheet" type = "text/css" href="../CSS/style.css">
+    </head>
+    <body>
+        <h1>Ajouter un élève</h1>
+        <div class="form">
+            <form action="ajouter_eleve.php" method="POST">
+                <!--le for est l'id de l'input associé-->
+                <label for="nom"> Nom:</label><br>
+                <!--le name est la variable que l'on va récupérer avec la méthode post
+                    id sert a faire le lien entre le label et l'input-->
+                <input type="text" name="nom" id="nom" required><br>
+                <label for="prenom"> Prénom:</label><br>
+                <input type="text" name="prenom" id="prenom" required><br>
+                <label for="naissance"> Date de naissance:</label><br>
+                <input type="date" name="naissance" id="naissance" required><br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </body>
+</html>
